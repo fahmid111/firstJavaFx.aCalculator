@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="700.0" prefWidth="400.0" style="-fx-background-color: #35B3E6;">
+         <children>
+            <AnchorPane layoutX="13.0" layoutY="21.0" prefHeight="170.0" prefWidth="374.0" style="-fx-background-color: #6FC8E1;">
+               <children>
+                  <Label fx:id="resLabel" alignment="BASELINE_CENTER" layoutX="38.0" layoutY="85.0" prefHeight="73.0" prefWidth="299.0" textFill="LIME">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="screenLabel" alignment="BASELINE_CENTER" layoutX="111.0" layoutY="16.0" prefHeight="73.0" prefWidth="153.0">
+                     <font>
+                        <Font size="27.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <Button fx:id="btnPls" layoutX="14.0" layoutY="209.0" mnemonicParsing="false" onAction="#calNow" style="-fx-background-color: #EED970;" text="+">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnSub" layoutX="109.0" layoutY="209.0" mnemonicParsing="false" onAction="#calNow" prefHeight="40.0" prefWidth="82.0" style="-fx-background-color: #EED970;" text="-">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnMul" layoutX="209.0" layoutY="209.0" mnemonicParsing="false" onAction="#calNow" prefWidth="82.0" style="-fx-background-color: #EED970;" text="*">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnDiv" layoutX="304.0" layoutY="209.0" mnemonicParsing="false" onAction="#calNow" prefWidth="82.0" style="-fx-background-color: #EED970;" text="/">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn7" layoutX="14.0" layoutY="306.0" mnemonicParsing="false" onAction="#calNow" prefWidth="82.0" style="-fx-background-color: #61D4F6;" text="7">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn8" layoutX="109.0" layoutY="306.0" mnemonicParsing="false" onAction="#calNow" prefWidth="82.0" style="-fx-background-color: #61D4F6;" text="8">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn9" layoutX="209.0" layoutY="306.0" mnemonicParsing="false" onAction="#calNow" prefWidth="82.0" style="-fx-background-color: #61D4F6;" text="9">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnCls" layoutX="304.0" layoutY="306.0" mnemonicParsing="false" onAction="#calNow" prefHeight="86.0" style="-fx-background-color: #FE8A88;" text="CLS">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn4" layoutX="14.0" layoutY="403.0" mnemonicParsing="false" onAction="#calNow" prefWidth="82.0" style="-fx-background-color: #61D4F6;" text="4">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn5" layoutX="109.0" layoutY="403.0" mnemonicParsing="false" onAction="#calNow" prefWidth="82.0" style="-fx-background-color: #61D4F6;" text="5">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn6" layoutX="209.0" layoutY="403.0" mnemonicParsing="false" onAction="#calNow" prefWidth="82.0" style="-fx-background-color: #61D4F6;" text="6">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnBck" layoutX="304.0" layoutY="403.0" mnemonicParsing="false" onAction="#calNow" prefHeight="86.0" style="-fx-background-color: #FE8A88;" text="&lt;=">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn1" layoutX="14.0" layoutY="500.0" mnemonicParsing="false" onAction="#calNow" prefWidth="82.0" style="-fx-background-color: #61D4F6;" text="1">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn2" layoutX="109.0" layoutY="500.0" mnemonicParsing="false" onAction="#calNow" prefWidth="82.0" style="-fx-background-color: #61D4F6;" text="2">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn3" layoutX="209.0" layoutY="500.0" mnemonicParsing="false" onAction="#calNow" prefWidth="82.0" style="-fx-background-color: #61D4F6;" text="3">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn0" layoutX="304.0" layoutY="500.0" mnemonicParsing="false" onAction="#calNow" prefWidth="82.0" style="-fx-background-color: #61D4F6;" text="0">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnDot" layoutX="15.0" layoutY="600.0" mnemonicParsing="false" onAction="#calNow" prefWidth="82.0" style="-fx-background-color: #C0DE79;" text=".">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnEnt" layoutX="110.0" layoutY="600.0" mnemonicParsing="false" onAction="#calNow" prefWidth="276.0" style="-fx-background-color: #A6D137;" text="Enter">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>
