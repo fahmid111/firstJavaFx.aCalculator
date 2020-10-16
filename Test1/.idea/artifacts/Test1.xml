@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="Test1">
+    <output-path>$PROJECT_DIR$/out/artifacts/Test1</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="sample.Main" />
+        <option name="description" value="" />
+        <option name="height" value="700" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="nativeBundle" value="all" />
+        <option name="title" value="FAM Calculator" />
+        <option name="vendor" value="" />
+        <option name="version" value="1.0.0.0" />
+        <option name="width" value="400" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="Test1.jar">
+        <element id="module-output" name="Test1" />
+      </element>
+    </root>
+  </artifact>
+</component>
